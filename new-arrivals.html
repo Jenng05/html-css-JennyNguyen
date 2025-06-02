@@ -5,11 +5,13 @@
     <meta name="description" content="view a list of new arrival jackets for men and women"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rainy Days | New Arrivals</title>
-    <link rel="stylesheet" href="src/css/styles.css" />
-    <head>
+    <link rel="stylesheet" href="src/css/new-arrivals.css" />
+  </head>
     <body>
         <header>
-      <a href="index.html" class="logo">Rainy Days</a>
+      <a href="index.html">
+        <img src="images/logo.png" alt="Rainy Days logo" class="logo">
+        </a>
       <nav>
         <ul>
           <li>Shop</li>
@@ -18,22 +20,24 @@
         </ul>
       </nav>
         </header>
-        <h4>Home/ New Arrivals</h4>
+        <main>
+        <h4>Home/ <span class="highlight">New Arrivals</span></h4>
         <h1>New Arrivals</h1>
         <section>
             <div class="product-list">
             <!--Product 1-->
-            <div class="product-info">
-            <img src="images/" alt="Pulse Red jacket">
-            <p>£95</p>
+          <div class="product-info">
+          <a href="product-detail.html" alt="product detail - fjord guard" class="fjord-guard">
+            <img src="images/Fjord-Guard.jpg" alt="Fjord Guard">
+          </a>
+            <p>£110</p>
             <p>Sizes availible</p>
             <div class="sizes">
-              <span>XS</span><span>S</span><span>M</span><span>L</span><span>XL</span>
+              <span>XS</span><span class="unavailable">S</span><span class="unavailable">M</span><span>L</span><span class="unavailable">XL</span>
             </div>
-          </div>
           <!--Product 2-->
           <div class="product-info">
-            <img src="images/" alt="Alpine Scott">
+            <img src="images/Alpine-Scott.jpg" alt="Alpine Scott">
             <p>£100</p>
             <p>Sizes availible</p>
             <div class="sizes">
@@ -42,7 +46,7 @@
           </div>
          <!--Product 3-->
           <div class="product-info">
-            <img src="images/" alt="Roam Wind Women">
+            <img src="images/Roam Wind Women.jpg" alt="Roam Wind Women">
             <p>£80</p>
             <p>Sizes availible</p>
             <div class="sizes">
@@ -51,23 +55,24 @@
           </div>
           <!--Product 4-->
           <div class="product-info">
-            <img src="images/" alt="Green Camp">
+            <img src="images/Green-Camp.jpg" alt="Green Camp">
             <p>£85</p>
             <p>Sizes availible</p>
             <div class="sizes">
               <span>XS</span><span class="unavailable">S</span><span>M</span><span>L</span><span>XL</span>
             </div>
           <!--Product 5-->
-          <div class="product-info">
-            <img src="images/" alt="Fjord Guard">
-            <p>£110</p>
+            <div class="product-info">
+            <img src="images/Pulse-Red.jpg" alt="Pulse Red">
+            <p>£95</p>
             <p>Sizes availible</p>
             <div class="sizes">
-              <span>XS</span><span class="unavailable">S</span><span class="unavailable">M</span><span>L</span><span class="unavailable">XL</span>
+              <span>XS</span><span>S</span><span>M</span><span>L</span><span>XL</span>
             </div>
+          </div>
           <!--Product 6-->
           <div class="product-info">
-            <img src="images/" alt="Echo Black">
+            <img src="images/Echo-Black.jpg" alt="Echo Black">
             <p>£99</p>
             <p>Sizes availible</p>
             <div class="sizes">
@@ -75,18 +80,20 @@
             </div>
           <!--Product 7-->
           <div class="product-info">
-            <img src="images/" alt="Grey Trekker">
+            <img src="images/Grey-Trekker.jpg" alt="Grey Trekker">
             <p>£98</p>
             <p>Sizes availible</p>
             <div class="sizes">
               <span>XS</span><span>S</span><span>M</span><span>L</span><span>XL</span>
             </div>
         </section>
+        </main>
 
+    <!--Footer-->
             <footer>
       <div class="footer-container">
         <div class="footer-logo">
-          <img src="images/logo" alt="Rainy Days logo">
+          <img src="images/footer.logo.png" alt="Rainy Days logo">
         </div>
         
         <div class="newsletter">
@@ -129,9 +136,9 @@
             </div>
           </div>
         </div>
-
-        <p class="Copyright">Rainy Days © 2025. All rights reserved.</p>
       </div>
-    </footer>
-    </body>
-    </head>
+
+      <p>Rainy Days © 2025. All rights reserved.</p>
+     copyright&copy;</footer>
+  </body>
+</html>
